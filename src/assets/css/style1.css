@@ -11,17 +11,17 @@ html, body{
 
 @font-face {
   font-family: prosans;
-  src: url("../font/GoogleSans-Regular.ttf");
+  src: url(../font/GoogleSans-Regular.ttf);
 }
 
 @font-face {
   font-family: Nunito;
-  src: url("../font/Nunito-Regular.ttf");
+  src: url(../font/Nunito-Regular.ttf);
 }
 
 @font-face {
   font-family: Poppins;
-  src: url("../font/Poppins-Regular.ttf");
+  src: url(../font/Poppins-Regular.ttf);
 }
 
 #loading {

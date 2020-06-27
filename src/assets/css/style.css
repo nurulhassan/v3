@@ -6,7 +6,7 @@ html, body{
 
 @font-face {
 	font-family: Cinzel;
-	src: url(../font/Cinzel-Regular.ttf);
+	src: url("../font/Cinzel-Regular.ttf");
 }
 
 @font-face {

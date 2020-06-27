@@ -14,15 +14,15 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-5">
-            <ul class="navbar-nav mr-auto nav-content" >
-              <li class="nav-item active mx-3 " routerLinkActive="active">
-                <a class="nav-menu text-decoration-none"  id="nav_link" routerLink="home"><span class="navclr">Home</span></a>
+            <ul class="navbar-nav mr-auto nav-content">
+              <li class="nav-item mx-3 " routerLinkActive="active">
+                <a class="nav-menu text-decoration-none"  id="nav_link"  [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="active" routerLink="/home"><span routerLinkActive="navclr">Home</span></a>
               </li>
-              <li class="nav-item mx-3">
-                <a class="nav-menu text-decoration-none"  id="nav_link" routerLink="about">About Me</a>
+              <li class="nav-item mx-3" routerLinkActive="active">
+                <a class="nav-menu text-decoration-none"  id="nav_link" routerLink="/about_me"><span routerLinkActive="navclr">About</span></a>
               </li>
-              <li class="nav-item mx-3">
-                <a class="nav-menu text-decoration-none"  id="nav_link" routerLink="carrier">Carrier</a>
+              <li class="nav-item mx-3" routerLinkActive="active">
+                <a class="nav-menu text-decoration-none"  id="nav_link" routerLink="/carrier"><span routerLinkActive="navclr">Carrier</span></a>
               </li>
             </ul>
           </div>
@@ -33,14 +33,14 @@
 
           <div class="col-md-5">
             <ul class="navbar-nav mr-auto nav-content">
-              <li class="nav-item mx-3">
-                <a class="nav-menu text-decoration-none"  id="nav_link" href="blog.html">Blog</a>
+              <li class="nav-item mx-3" routerLinkActive="active">
+                <a class="nav-menu text-decoration-none"  id="nav_link" href="/blog"><span routerLinkActive="navclr">Blog</span></a>
               </li>
-              <li class="nav-item mx-3">
-                <a class="nav-menu text-decoration-none"  id="nav_link" routerLink="work">Work</a>
+              <li class="nav-item mx-3" routerLinkActive="active">
+                <a class="nav-menu text-decoration-none"  id="nav_link" routerLink="/my_work"><span routerLinkActive="navclr">Work</span></a>
               </li>
-              <li class="nav-item mx-3">
-                <a class="nav-menu text-decoration-none"  id="nav_link" routerLink="contact">Contact Me</a>
+              <li class="nav-item mx-3" routerLinkActive="active">
+                <a class="nav-menu text-decoration-none"  id="nav_link" routerLink="/contact_me"><span routerLinkActive="navclr">Contact Me</span></a>
               </li>
             </ul>
           </div>
