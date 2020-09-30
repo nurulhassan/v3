@@ -10,8 +10,8 @@ import { WorkComponent } from './work/work.component';
 const routes: Routes = [
   { path: 'home' , component:HomeComponent },
   { path: 'about_me' , component:AboutComponent },
-  { path: 'carrier' , component:CarrierComponent },
-  { path: 'contact_me' , component:ContactComponent },
+  { path: 'carrier' , component:CarrierComponent },,
+  { path: 'contact' , component:ContactComponent },
   { path: 'my_work' , component:WorkComponent }
 ];
 
