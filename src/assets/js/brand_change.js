@@ -11,6 +11,19 @@ $(function () {
   });
 });
 
+$(function () {
+  var a = $(".nav-menu");
+  $(window).scroll(function () {
+    var scroll = $(window).scrollTop();
+
+    if (scroll <= 0) {
+      a.removeClass("nav-men").addClass("nav-menu");
+    } else {
+      a.removeClass("nav-menu").addClass("nav-men");
+    }
+  });
+});
+
 
 //  $(function() {
 //   var a = $(".nurul_namemob");
