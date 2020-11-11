@@ -18,29 +18,12 @@ declare var $: any;
 export class NavbarComponent implements OnInit {
   constructor(@Inject(DOCUMENT) document) { }
   ngOnInit(): void {
-    $(function() {
-      var a = $(".nurul_name");
-      $(window).scroll(function() {    
-        var scroll = $(window).scrollTop();
-        
-        if (scroll >= 0) {
-          a.removeClass("nurul_name").addClass("nurul_change");
-        } else {
-          a.removeClass("nurul_change").addClass("nurul_name");
-        }
-      });
+    $("#navbarSupportedContent").on('show.bs.collapse', function() {
+    $('a.nav-link').click(function() {
+        $("#navbarSupportedContent").collapse('hide');
     });
-     $(function() {
-      var a = $(".nurul_name");
-      $(window).scroll(function() {    
-        var scroll = $(window).scrollTop();
-        if (scroll <= 0) {
-          a.removeClass("nurul_change").addClass("nurul_name");
-        } else {
-          a.removeClass("nurul_name").addClass("nurul_change");
-        }
-      });
-    });
+});
+   
   }
   @HostListener('window:scroll', ['$event'])
   onWindowScroll(e) {

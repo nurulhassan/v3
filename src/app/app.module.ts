@@ -11,6 +11,7 @@ import { CarrierComponent } from './carrier/carrier.component';
 import { ContactComponent } from './contact/contact.component';
 import { WorkComponent } from './work/work.component';
 import { MySkillComponent } from './my-skill/my-skill.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { MySkillComponent } from './my-skill/my-skill.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
