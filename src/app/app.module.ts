@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { CarrierComponent } from './carrier/carrier.component';
 import { ContactComponent } from './contact/contact.component';
 import { WorkComponent } from './work/work.component';
+import { MySkillComponent } from './my-skill/my-skill.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { WorkComponent } from './work/work.component';
     HomeComponent,
     CarrierComponent,
     ContactComponent,
-    WorkComponent
+    WorkComponent,
+    MySkillComponent
   ],
   imports: [
     BrowserModule,
