@@ -304,6 +304,12 @@ strong{
   padding-bottom: 8px;
 }
 
+.nav-men:hover{
+  text-decoration: none;
+  border-bottom: 1px solid #000;
+  color: #000000;
+  padding-bottom: 8px;
+}
 .site-banner{
   color: #ababab;
 }
