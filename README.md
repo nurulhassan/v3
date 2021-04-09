@@ -1,4 +1,19 @@
-# Mysite
+<h1 align="center">
+  nurulhassan - v3
+</h1>
+<p align="center">
+  The Third iteration of <a href="https://nurulhassan.tech/" target="_blank">nurulhassan</a> built with Angular, SCSS, Typescript and Bootstrap.
+</p>
+<div align="center" >
+<img src="v3.PNG" width="100%" />
+</div>
+
+## 🚨 Forking this repo (please read!)
+
+Many people have contacted me asking me if they can use this code for their own website, and the answer to that question is usually **yes, with attribution**.
+
+I value keeping my site open source, but as you all know, _**plagiarism is bad**_. It's always disheartening whenever I find that someone has copied my site without giving me credit. I spent a non-trivial amount of effort building and designing this iteration of my website, and I am proud of it! All I ask of you all is to not claim this effort as your own.
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.8.
 
